@@ -1,7 +1,13 @@
 # python-cassandra-docker-compose
+
+docker-compose:
+- a cassandra cluster with two nodes
+- some basic python code to interact with cassandra
+
+
 ## Workflow
 
-__wait for one minute after docker-compose up for cassandra to start__
+_wait for one minute after docker-compose up for cassandra to start_
 
 ```
 docker-compose up
